@@ -1,0 +1,14 @@
+*{
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    color: rgba(201, 61, 47, 1);
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color:  rgba(227, 120, 38, 1);
+}

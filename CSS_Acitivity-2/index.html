@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Sando</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Japanese Sando</h1>
+            <p id="subhead">Choose you Toast?</p>
+        </article>
+    </main>
+
+        <div>
+            <h2>Fruit Toast</h2>
+            
+            <table>
+                <tbody>
+                    <tr class="select">
+                        <td><img src="menu/fruit_1.jpg" alt="Sandwich filled with cream and shine muscat" id="image"/></td>
+                        <td><img src="menu/fruit_2.jpg" alt="Sandwich filled with cream and tangerines" id="image"/></td>
+                        <td><img src="menu/fruit_3.jpg" alt="Sandwich filled with cream and strawberry" id="image"/></td>
+                        <td><img src="menu/fruit_4.jpg" alt="Sandwich filled with cream and mango" id="image"/></td>
+                    </tr>
+
+                    <tr id="item">
+                        <td >Shine Muscat Sandwich
+                            <p>30.00</p></td>
+                        <td>Tangerine Sandwich <p>30.00</p></td>
+                        <td>Strawberry Sandwich <p>40.00</p></td>
+                        <td>Mango Sandwich <p>30.00</p></td>
+                    </tr>
+
+                     <tr class="select">
+                        <td><img src="menu/fruit_5.jpg" alt="Sandwich filled with cream and kiwi" id="image"/></td>
+                        <td><img src="menu/fruit_6.jpg" alt="Sandwich filled with cream and banana" id="image"/></td>
+                        <td><img src="menu/fruit_7.jpg" alt="Sandwich filled with cream and melon" id="alter-image" id="image"/></td>
+                        <td><img src="menu/fruit_8.jpg" alt="Sandwich filled with cream, strawberry, orange, and kiwi" id="alter-image" id="image"/></td>
+                    </tr>
+
+                    <tr id="item">
+                        <td>Kiwi Sandwich <p>50.00</p></td>
+                        <td >Banana Sandwich <p>30.00</p></td>
+                        <td>Melon Sandwich <p>50.00</p></td>
+                        <td>Fruit Combo Sandwich <p>70.00</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h2>Egg Toast</h2>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td><img src="menu/egg-1.jpg" alt="Sandwich with Egg, Lettuce, and Tonkatsu or Japanese Pork Cutlet" id="image"/></td>
+                        <td><img src="menu/egg-2.jpg" alt="Sandwich with Bacon, Lettuce,and Tomato" id="image"/></td>
+                        <td><img src="menu/egg-3.jpg" alt="Sandwich with Tuna dressing, Tomato, and Lettuce" id="alter-image"/></td>
+                        <td><img src="menu/egg-4.jpg" alt="Sandwich with Minced pork omelette, Lettuce, and onion " id="alter-image"/></td>
+                    </tr>
+
+                    <tr id="item">
+                        <td>Tonkatsu Egg Sandwich
+                            <p>140.00</p>
+                        </td>
+                        <td>BLT Sandwich
+                            <p>95.00</p>
+                        </td>
+                        <td>Saba Mayo Sandwich
+                            <p>110.00</p>
+                        </td>
+                        <td>Soboro Omelette Sandwich
+                            <p>115.00</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="menu/egg-5.jpg" alt="Sandwich with Eggs, Spinash, Tomato, Cheese, REd Cabbage, and Mayonnaise" id="image"/></td>
+                        <td><img src="menu/egg-6.jpg" alt="Sandwich with Tofu, Eggs, HAm, Cheese, Tomato, and Lettuce" id="image"/></td>
+                        <td><img src="menu/egg-7.jpg" alt="Sandwich with Whole wheat bread, Creamcheese, Smoked salmon, Avocado, Egg, and Lettuce"  id="image"/></td>
+                        <td><img src="menu/egg-8.jpg" alt="Sandwich with Ham, Egg, Shredded carrots, Cheese, Mayonnaise, and Mustard"  id="image"/></td>
+                    </tr>
+                    
+                    <tr id="item">
+                        <td>Tomato & Spinach<br>
+                            -Cheese Omelette
+                            <p>95.00</p>
+                        </td>
+                        <td>Tofu and Ham Sandwich
+                            <p>100.00</p>
+                        </td>
+                        <td>Smoked Salmon Sandwich
+                            <p>140.00</p>
+                        </td>
+                        <td>Egg and Ham Sandwich
+                            <p>115.00</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+            <hr>        
+
+        <footer>
+            <form action="submit.html" method="post">
+                <fieldset>
+
+                    <legend>Order Infomartion</legend><br>
+
+                    <label for="name">Name</label><br><br>
+                    <input type="text" name="name" id="name" required>
+                    <br><br>
+
+                    <label for="order">Your Order Here!</label><br><br>
+                    <textarea name="order" id="order" placeholder="example: Strawberry Sandwich- 2pcs" required></textarea><br><br>
+
+                    <label for="message" >Allergies</label><br><br>
+                    <textarea name="message" id="message" placeholder="Do you have any Allergies? if yes, please specify."></textarea><br><br>
+
+                    <label for="paymentOption">Payment Option: </label><br><br>
+                    <input type="radio" value="cod" id="cod" name="paymentOption" required>
+                    <label for="cod">Cash</label><br>
+                    <input type="radio" value="online" id="online" name="paymentOption" required>
+                    <label for="paymentOption">Gcash/Card</label><br>
+                </fieldset>
+
+                <input type="submit" value="Place your Order" id="submit">
+
+            </form>
+        </footer>
+</body>
+</html>

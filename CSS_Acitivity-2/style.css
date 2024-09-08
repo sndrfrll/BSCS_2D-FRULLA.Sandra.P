@@ -1,0 +1,65 @@
+*{
+    background-color: ghostwhite;
+}
+main{
+    text-align: center;
+    margin-bottom: 60px;
+}
+h1{
+    font-size: 65px;
+    color: rgba(188, 31, 26, 1);
+}
+#subhead{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgba(212, 108, 78, 1);
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+    width: 200px;
+    color: rgba(227, 120, 38, 1);
+    background-color:rgba(243, 222, 195, 1);
+    padding: 10px;
+    width: 98%;
+}
+#image{
+    width: 220px;
+}
+#alter-image{
+    width: 230px;
+}
+#item{
+   text-align: right; 
+   color: black;
+   font-size: 20px;
+}
+table{    
+    margin-left: 15px
+}
+td{
+    border: 4px black;
+    padding: 10px;
+}
+fieldset{
+    background-color: rgba(245, 210, 149, 1);
+}
+legend{
+    font-size: 30px;
+}
+label{
+    font-size: 15px;
+    margin-left: 5px;
+    padding: 5px;
+}
+textarea{
+    width: 300px;
+    height: 50px
+}
+#submit{
+    width: 140px;
+    color: white;
+    background-color: rgba(212, 108, 78, 1);
+    border-radius: 10px;
+    padding: 14px;
+}
