@@ -48,9 +48,11 @@ p{
   background-color: white;
   color: #fec195;
 }
-form.a{
+a{
   color: white;
   margin-top: 20px;
+  text-decoration: none;
+  
 }
 .righSide{
   display: flex;
